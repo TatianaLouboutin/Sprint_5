@@ -12,11 +12,11 @@ class TestStellarBurgersLogout:
         driver.find_element(*StellarBurgersLocators.AUTH_EMAIL).send_keys(StellarBurgersData.AUTH_EMAIL)
         driver.find_element(*StellarBurgersLocators.AUTH_PASSWORD).send_keys(StellarBurgersData.AUTH_PASSWORD)
         driver.find_element(*StellarBurgersLocators.BUTTON_AUTH).click()
-        time.sleep(3)
+        WebDriverWait(driver, 3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_CREATE_ORDER))
         assert driver.find_element(*StellarBurgersLocators.BUTTON_CREATE_ORDER).text == 'Оформить заказ', 'Не нашел кнопку Оформить заказ'
 
         driver.find_element(*StellarBurgersLocators.BUTTON_PERSONAL_AREA).click()
-        time.sleep(3)
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_LOGOUT))
         driver.find_element(*StellarBurgersLocators.BUTTON_LOGOUT).click()
-        time.sleep(3)
-        assert driver.current_url == 'https://stellarburgers.nomoreparties.site/login'
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_AUTH))
+        assert driver.current_url == settings.URL_log

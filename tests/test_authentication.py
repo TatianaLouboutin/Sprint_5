@@ -12,7 +12,7 @@ class TestAuthenticationStellarBurgers:
         driver.find_element(*StellarBurgersLocators.AUTH_EMAIL).send_keys(StellarBurgersData.AUTH_EMAIL)
         driver.find_element(*StellarBurgersLocators.AUTH_PASSWORD).send_keys(StellarBurgersData.AUTH_PASSWORD)
         driver.find_element(*StellarBurgersLocators.BUTTON_AUTH).click()
-        time.sleep(3)
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_CREATE_ORDER))
         assert driver.find_element(*StellarBurgersLocators.BUTTON_CREATE_ORDER).text == 'Оформить заказ', 'Не нашел кнопку Оформить заказ'
 
     def test_auth_button_go_in_to_account(self, driver):
@@ -20,7 +20,7 @@ class TestAuthenticationStellarBurgers:
         driver.find_element(*StellarBurgersLocators.AUTH_EMAIL).send_keys(StellarBurgersData.AUTH_EMAIL)
         driver.find_element(*StellarBurgersLocators.AUTH_PASSWORD).send_keys(StellarBurgersData.AUTH_PASSWORD)
         driver.find_element(*StellarBurgersLocators.BUTTON_AUTH).click()
-        time.sleep(3)
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_CREATE_ORDER))
         assert driver.find_element(*StellarBurgersLocators.BUTTON_CREATE_ORDER).text == 'Оформить заказ', 'Не нашел кнопку Оформить заказ'
 
     def test_auth_link_auth(self, driver):
@@ -30,7 +30,7 @@ class TestAuthenticationStellarBurgers:
         driver.find_element(*StellarBurgersLocators.AUTH_EMAIL).send_keys(StellarBurgersData.AUTH_EMAIL)
         driver.find_element(*StellarBurgersLocators.AUTH_PASSWORD).send_keys(StellarBurgersData.AUTH_PASSWORD)
         driver.find_element(*StellarBurgersLocators.BUTTON_AUTH).click()
-        time.sleep(3)
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_CREATE_ORDER))
         assert driver.find_element(*StellarBurgersLocators.BUTTON_CREATE_ORDER).text == 'Оформить заказ', 'Не нашел кнопку Оформить заказ'
 
     def test_auth_recovery_link(self, driver):
@@ -40,5 +40,5 @@ class TestAuthenticationStellarBurgers:
         driver.find_element(*StellarBurgersLocators.AUTH_EMAIL).send_keys(StellarBurgersData.AUTH_EMAIL)
         driver.find_element(*StellarBurgersLocators.AUTH_PASSWORD).send_keys(StellarBurgersData.AUTH_PASSWORD)
         driver.find_element(*StellarBurgersLocators.BUTTON_AUTH).click()
-        time.sleep(3)
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_CREATE_ORDER))
         assert driver.find_element(*StellarBurgersLocators.BUTTON_CREATE_ORDER).text == 'Оформить заказ', 'Не нашел кнопку Оформить заказ'

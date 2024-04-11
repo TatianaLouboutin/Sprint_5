@@ -15,7 +15,7 @@ class TestStellarBurgersRegistration:
         driver.find_element(*StellarBurgersLocators.REG_EMAIL).send_keys(StellarBurgersData.REG_EMAIL)
         driver.find_element(*StellarBurgersLocators.REG_PASSWORD).send_keys(StellarBurgersData.REG_PASSWORD_INCORRECT)
         driver.find_element(*StellarBurgersLocators.BUTTON_REG).click()
-        time.sleep(3)
+        WebDriverWait(driver, 3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.PASSWORD_INCORRECT))
         assert driver.find_element(*StellarBurgersLocators.PASSWORD_INCORRECT).text == 'Некорректный пароль', 'Не нашел кнопку Оформить заказ'
 
     def test_registration_valid_data(self, driver):
@@ -29,6 +29,6 @@ class TestStellarBurgersRegistration:
         driver.find_element(*StellarBurgersLocators.REG_EMAIL).send_keys(email)
         driver.find_element(*StellarBurgersLocators.REG_PASSWORD).send_keys(password)
         driver.find_element(*StellarBurgersLocators.BUTTON_REG).click()
-        time.sleep(3)
-        assert driver.current_url == 'https://stellarburgers.nomoreparties.site/login'
+        WebDriverWait(driver,3).until(expected_conditions.presence_of_element_located(StellarBurgersLocators.BUTTON_AUTH))
+        assert driver.current_url == settings.URL_log
 

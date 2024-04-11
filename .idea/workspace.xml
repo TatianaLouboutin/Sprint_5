@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1418c68a-cc48-4330-a930-4a71bcc7c59d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Sprint_5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_logout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_transit_in_constructor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_transit_personal_area_constructor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_transit_in_constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_transit_in_constructor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_transit_personal_area_constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_transit_personal_area_constructor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in test_authentification.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logout.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_transit_local_area.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_transit_personal_area.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_transit_to_bulki_souces_fillings.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_authentication.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_logout.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_transit_in_constructor.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_transit_personal_area_constructor.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_registration.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/taylo/OneDrive/Рабочий стол/Я- автоматизатор/qa_python_5&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_authentification.py.executor": "Run",
+    "Python tests.Python tests in test_logout.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.Python tests in test_transit_local_area.py.executor": "Run",
+    "Python tests.Python tests in test_transit_personal_area.py.executor": "Run",
+    "Python tests.Python tests in test_transit_to_bulki_souces_fillings.py.executor": "Run",
+    "Python tests.pytest in test_authentication.py.executor": "Run",
+    "Python tests.pytest in test_logout.py.executor": "Run",
+    "Python tests.pytest in test_registration.py.executor": "Run",
+    "Python tests.pytest in test_transit_in_constructor.py.executor": "Run",
+    "Python tests.pytest in test_transit_personal_area_constructor.py.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.test_registration.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/taylo/OneDrive/Рабочий стол/Я- автоматизатор/Sprint_5",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

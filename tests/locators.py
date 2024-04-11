@@ -33,3 +33,7 @@ class StellarBurgersLocators:
     SOUCES_NAME = (By.XPATH, ".//img[@alt='Соус фирменный Space Sauce']")      # Картинка соуса
     FILLINGS_NAME = (By.XPATH, ".//img[@alt='Филе Люминесцентного тетраодонтимформа']") # Картинка начинки
     BULKI_NAME = (By.XPATH, ".//img[@alt='Краторная булка N-200i']")           # Картинка булки
+
+    SOUCES_CLASS_PARENT = (By.XPATH, ".//span[text()='Соусы']/parent::*")      # Родитель Соусы                                                                     # Класс поменялся
+    BULKI_CLASS_PARENT = (By.XPATH, ".//span[text()='Булки']/parent::*")       # Родитель Булки
+    FILLINGS_CLASS_PARENT = (By.XPATH, ".//span[text()='Начинки']/parent::*")  # Родитель Начинки
